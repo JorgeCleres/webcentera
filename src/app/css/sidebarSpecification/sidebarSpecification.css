@@ -1,0 +1,75 @@
+.specification-green {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  padding: 1.5rem 0rem 0rem 1rem;
+  align-items: center;
+  gap: 2.5rem;
+  background: var(--green);
+}
+
+.specification-green img {
+  width: 14.8125rem;
+  height: 10.5625rem;
+  object-fit: fill;
+}
+
+.specification-green h3 {
+  color: #FFF;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: -0.025rem;
+}
+
+.sidebar-title {
+  color: var(--Dark-tones-Dark);
+  font-feature-settings: 'liga' off, 'clig' off;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.125rem;
+  letter-spacing: 0.0125rem;
+}
+
+.sidebar-select {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 0.5px solid #D7D9DD;
+  background: #FFF;
+  color: var(--Dark-tones-Light);
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1rem;
+}
+
+.sidebar-select:focus {
+  border: 1px solid #485C3B;
+  outline: none;
+}
+
+.sidebar-button {
+  display: flex;
+  padding: 1.125rem 1.5rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.25rem;
+  align-self: stretch;
+  border-radius: 0.5rem;
+  background: var(--green);
+  box-shadow: 0px 12px 16px 0px rgba(72, 92, 59, 0.20);
+
+  color: #FFF;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.25rem;
+}

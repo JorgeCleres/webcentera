@@ -1,0 +1,88 @@
+.destination-text {
+  color: #2F313B;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1rem;
+}
+
+.kilometer-text {
+  color: #000;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.25rem;
+}
+
+.destination-button {
+  display: flex;
+  width: 6.5rem;
+  height: 3.5rem;
+  padding: 0.75rem 1.5rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.25rem;
+  border-radius: 0.5rem;
+  border: 2px solid #485C3B;
+
+  color: #485C3B;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.25rem;
+}
+
+.destination-button:hover {
+  background-color: #485C3B;
+  color: #fff;
+}
+
+.resultsidebar-title {
+  color: #2F313B;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1rem;
+}
+
+.result-table-title {
+  color: #000;
+  font-family: 'Outfit', sans-serif;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.25rem;
+}
+
+.result-table-subtext {
+  color: #000;
+  font-family: 'Outfit', sans-serif;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.25rem;
+}
+
+.result-table-value {
+  color: #000;
+  font-family: 'Outfit', sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.25rem;
+}
+
+.finalize-route {
+  color: #485C3B;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.25rem;
+}
