@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import { CardCaminhaoProps } from "../types/components/cardCaminhao";
 import "../css/cardCaminhao/cardCaminhao.css";
 
@@ -8,10 +9,12 @@ export default function CardCaminhao({ caminhao, mostrarCaminhao }: CardCaminhao
       <div className="card-caminhao-container">
         <div className="flex flex-col md:flex-row gap-2 mt-4">
           <div className="flex flex-col items-start w-full gap-4">
-            <img
+            <Image
               src={caminhao.caminhaoImg}
               alt={`Imagem de caminhão do código ${caminhao.codigo}`}
               className="w-full object-contain mb-2 max-w-[35rem] max-h-[10rem] flex-1"
+              width={450}
+              height={450}
             />
             <div className="flex flex-col md:flex-row w-full gap-1 items-start">
               <p className="micro-cards">
@@ -58,8 +61,10 @@ export default function CardCaminhao({ caminhao, mostrarCaminhao }: CardCaminhao
           <div key={index} className="card-caminhao-container">
             <div className="flex flex-col md:flex-row gap-2 mt-4">
               <div className="flex flex-col items-start w-full gap-4">
-                <img
+                <Image
                   src={eixo.img}
+                  width={450}
+                  height={450}
                   alt={`Imagem de eixo tipo ${eixo.tipo} do código ${caminhao.codigo}`}
                   className="w-full object-contain mb-2 max-w-[35rem] max-h-[10rem] flex-1"
                 />

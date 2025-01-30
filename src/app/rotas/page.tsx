@@ -5,7 +5,7 @@ import Sidebar from "../components/Sidebar";
 import Map from "../components/Map";
 import ResultSidebar from "../components/ResultSidebar";
 
-import '../css/home/home.css';
+import '../css/rotas/rotas.css';
 
 interface RouteData {
   origem: string;

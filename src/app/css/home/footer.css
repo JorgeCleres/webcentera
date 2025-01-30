@@ -1,0 +1,86 @@
+/************** footer **************/
+
+footer {
+    background: white;
+    color: white;
+    padding: 50px 20px 20px;
+    text-align: center;
+}
+
+footer>div {
+    padding: 20px 80px;
+}
+
+footer .links h3,
+footer .operacao h3 {
+    font-size: 1.3em;
+    font-weight: 500;
+    text-align: start;
+    color: #91BA4A;
+    margin: 0 0 10px;
+}
+
+footer .links a,
+footer .operacao p {
+    font-size: 18px;
+    text-align: start;
+    color: rgb(61, 61, 61);
+    margin: -5px 10px 0;
+    font-weight: 500;
+}
+
+footer .links img,
+footer .operacao img {
+    margin: 0px 0 10px;
+    width: 20px;
+    height: 20px;
+}
+
+footer .links>div,
+footer .operacao>div {
+    display: flex;
+}
+
+footer .empresa-logo {
+    margin: 0px 0 60px;
+}
+
+footer .empresa-logo p {
+    font-size: 16px;
+    text-align: start;
+    color: rgb(61, 61, 61);
+    margin: 10px 0;
+    width: 80%;
+}
+
+footer #copy {
+    margin: 15px 0 -5px;
+    color: #5a5f56;
+}
+
+footer hr {
+    height: 2px;
+    background: #b7b7b7;
+}
+
+@media(max-width: 480px) {
+    footer {
+        padding: 0px 10px 10px;
+    }
+
+    footer>div {
+        padding: 20px 10px;
+    }
+
+    footer .empresa-logo {
+        margin: 0px 0 0;
+    }
+
+    footer .empresa-logo img {
+        width: 200px;
+    }
+
+    footer #copy {
+        font-size: 11px;
+    }
+}

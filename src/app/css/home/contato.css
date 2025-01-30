@@ -1,0 +1,82 @@
+/********* banner-contato ***********/
+
+.banner-contato {
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    background: linear-gradient(270deg, #485c3b, #858585b5), url('/contato-banner.png');
+}
+
+.banner-contato h2 {
+    font-size: 3.5em;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+    line-height: 1.1;
+}
+
+
+/******* contato ***************/
+
+.contato {
+    margin: 80px 0 50px;
+    padding: 20px 80px;
+}
+
+.contato .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    box-shadow: 3px 5px 14px 5px #c3c3c3;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.contato .img {
+    background: #485c3b;
+    padding: 15px;
+    border-radius: 80px;
+    height: 80px;
+    margin: 0 auto 20px;
+    display: block;
+    width: 80px;
+}
+
+.contato .img img {
+    width: 54px;
+}
+
+.contato h4 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #485c3b;
+    margin-bottom: 10px;
+}
+
+.contato h3 {
+    font-size: 28px;
+    font-weight: 400;
+    color: #485c3b;
+    margin-bottom: 10px;
+}
+
+
+
+@media(max-width: 480px) {
+    .banner-contato h2 {
+        font-size: 2.5em;
+    }
+    .contato h3 {
+        font-size: 20px;;
+    }
+    .contato {
+        margin: 40px 0 20px;
+        padding: 20px 12px;
+    }
+}

@@ -1,8 +1,9 @@
-html, body {
+html,
+body {
   height: 100%;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  scroll-behavior: smooth;
 }
 
 @keyframes spin {
@@ -10,6 +11,574 @@ html, body {
     transform: rotate(360deg);
   }
 }
+
 .animate-spin {
   animation: spin 1s linear infinite;
+}
+
+.home-text {
+  padding: 20px 80px;
+}
+
+.home-text h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #91BA4A;
+  margin: 70px 0 -10px;
+}
+
+.home-text h1 {
+  font-size: 5rem;
+  font-weight: 700;
+  color: #485c3b;
+  margin: 0 0 20px;
+}
+
+.home-banner > div,
+.home-banner {
+  padding: 20px 80px;
+}
+
+.home-banner>div {
+  background: #007bff;
+  color: white;
+  text-align: center;
+  background: linear-gradient(270deg, #485c3b, #4d4d4db5), url('/banner-home.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+
+.home-banner img {
+  border-radius: 40px;
+  padding: 20px;
+}
+
+.home-banner h2 {
+  margin-bottom: 5px;
+  font-size: 1.5em;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: start;
+}
+
+.home-banner p {
+  font-size: 18px;
+  width: 80%;
+  margin-bottom: 10px;
+  text-align: start;
+}
+
+.home-banner a {
+  margin: 0 !important;
+  background: #91BA4A;
+  color: white;
+  padding: 10px 20px;
+  width: 300px;
+  transition: 0.3s;
+}
+
+.home-banner a:hover {
+  background: #5E7053;
+  scale: 0.9;
+}
+
+/*********** nossa-ferramenta ************/
+
+.nossa-ferramenta {
+  margin: 80px 0 150px;
+  padding: 20px 80px;
+}
+
+.nossa-ferramenta h3 {
+  margin-bottom: 5px;
+  font-size: 1.4em;
+  font-weight: 600;
+  text-align: center;
+  color: #91BA4A;
+}
+
+.nossa-ferramenta h2 {
+  font-size: 3.2em;
+  font-weight: 500;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  color: #5E7053;
+  line-height: 1.1;
+}
+
+.nossa-ferramenta p {
+  font-size: 18px;
+  text-align: center;
+  color: rgb(61, 61, 61)
+}
+
+.nossa-ferramenta .nossa-ferramentas_cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  transition: 0.8s;
+}
+
+.nossa-ferramenta .nossa-ferramentas_card {
+  background: linear-gradient(270deg, #ffffff00, #ffffff00), url('/logo-opacity.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  padding: 20px;
+  transition: 0.8s;
+}
+
+.nossa-ferramenta .nossa-ferramentas_card:hover {
+  background: linear-gradient(270deg, #91ba4aab, #91ba4aab), url('/logo-opacity.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.nossa-ferramenta .nossa-ferramentas_card:hover a {
+  background: white;
+  color: #91BA4A;
+}
+
+.nossa-ferramenta .nossa-ferramentas_card {
+  flex: 0 1 calc(50% - 20px);
+  margin: 10px;
+  box-shadow: 1px 2px 16px -1px grey;
+}
+
+.nossa-ferramenta .nossa-ferramentas_card img {
+  border-radius: 90px;
+  margin: 0 auto 30px;
+  display: flex;
+  background-color: #485c3b;
+}
+
+.nossa-ferramenta .nossa-ferramentas_card h4 {
+  font-size: 1.3em;
+  font-weight: 600;
+  text-align: center;
+  color: #5E7053;
+  margin: 0 0 10px;
+}
+
+.nossa-ferramentas_card li {
+  text-align: center;
+  color: #5E7053;
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.nossa-ferramentas_card a {
+  text-align: center;
+  margin: 20px auto 0;
+  display: block;
+  background: #5E7053;
+  width: 150px;
+  border-radius: 10px;
+  color: white;
+  padding: 8px;
+  transition: 0.3s;
+}
+
+/************* banner ****************/
+
+.banner {
+  color: white;
+  padding: 50px 20px;
+  text-align: center;
+  background: linear-gradient(270deg, #5e7053b7, #5e7053a8), url(/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 25em;
+}
+
+.banner h2 {
+  margin-bottom: 20px;
+  text-align: start;
+  font-size: 2.4em;
+  font-weight: 500;
+  line-height: 1.1;
+  width: 80%;
+  margin: 60px 0 20px;
+}
+
+.banner a {
+  margin: 0 !important;
+  background: #91BA4A;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 1.1em;
+  border-radius: 30px;
+  text-align: center;
+  display: block;
+  width: 220px;
+}
+
+/******* processo ***************/
+
+.processo {
+  margin: 80px 0 150px;
+  padding: 20px 80px;
+}
+
+.processo h3 {
+  margin-bottom: 5px;
+  font-size: 2.5em;
+  font-weight: 600;
+  text-align: start;
+  color: #5E7053;
+}
+
+.processo h4 {
+  font-size: 1em;
+  font-weight: 500;
+  text-align: start;
+  color: #91BA4A;
+}
+
+.processo .processo_pass {
+  display: flex;
+  align-items: center;
+  margin: 15px 0 20px;
+  transition: 0.8s;
+}
+
+.processo .processo_pass h6 {
+  font-size: 1.2em;
+  font-weight: 500;
+  text-align: start;
+  color: #5E7053;
+  flex: 1;
+}
+
+.processo .icone {
+  color: transparent;
+  background: #91BA4A;
+  width: 66px;
+  height: 66px;
+  border-radius: 80px;
+  padding: 10px;
+  margin: 0 15px 0 0;
+  flex-shrink: 0;
+}
+
+.processo img {
+  margin: 0px 0 -40px;
+}
+
+/******** serivicos ************/
+
+.servicos {
+  margin: 80px 0 150px;
+}
+
+.servicos > div {
+  padding: 20px 80px;
+}
+
+.servicos h2 {
+  font-size: 3.2em;
+  font-weight: 500;
+  text-align: start;
+  color: #5E7053;
+  line-height: 1.1;
+}
+
+.servicos h5 {
+  font-size: 1.5em;
+  font-weight: 600;
+  text-align: start;
+  color: #91BA4A;
+}
+
+.servicos p {
+  font-size: 18px;
+  text-align: start;
+  color: rgb(61, 61, 61);
+  margin: 10px 0;
+}
+
+.servicos .servicos_cards .image {
+  background: #91BA4A;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 70px;
+  margin-bottom: 10px;
+}
+
+.servicos .servicos_cards h4 {
+  font-size: 1.2em;
+  font-weight: 500;
+  text-align: start;
+  color: #5E7053;
+  margin: 0 0 10px;
+}
+
+/********** vantagens ****************/
+
+.vantagens {
+  margin: 80px 0 150px;
+}
+
+.vantagens > div {
+  padding: 20px 80px;
+}
+
+.vantagens h5 {
+  font-size: 1.5em;
+  font-weight: 600;
+  text-align: start;
+  color: #91BA4A;
+}
+
+.vantagens h2 {
+  font-size: 3.2em;
+  font-weight: 500;
+  text-align: start;
+  color: #5E7053;
+  line-height: 1.1;
+}
+
+.vantagens li {
+  font-size: 17px;
+  text-align: start;
+  color: rgb(61, 61, 61);
+  margin: 10px 0 0px;
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+/************* tendencia **********/
+
+.tendencia {
+  padding: 20px 80px;
+  margin: 80px 0 30px;
+  color: white;
+  padding: 50px 20px;
+  text-align: center;
+  background: linear-gradient(270deg, #5e7053b7, #5e7053a8), url('/tendencia.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.tendencia h5 {
+  font-size: 1.5em;
+  font-weight: 600;
+  text-align: center;
+  color: white;
+}
+
+.tendencia h2 {
+  font-size: 2.6em;
+  font-weight: 500;
+  text-align: center;
+  color: white;
+  line-height: 1.1;
+  width: 50%;
+  margin: 0 auto 50px;
+  display: block;
+}
+
+.tendencia_card {
+  background: white;
+  padding: 20px 20px 30px;
+  border-radius: 15px;
+  transition: 0.4s;
+}
+
+.tendencia_card:hover {
+  background: #91BA4A;
+  color: white;
+}
+
+.tendencia_card:hover p,
+.tendencia_card:hover h3 {
+  color: white;
+}
+
+.tendencia_card h6 {
+  background: #5E7053;
+  width: 60px;
+  margin: 0 auto 10px;
+  padding: 15px;
+  border-radius: 67px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 900;
+}
+
+.tendencia h3 {
+  font-size: 1.1em;
+  font-weight: 500;
+  text-align: center;
+  color: #5E7053;
+  margin-bottom: 5px;
+}
+
+.tendencia p {
+  font-size: 17px;
+  text-align: center;
+  color: #5E7053;
+}
+
+.tendencia a {
+  margin: 60px auto 0 !important;
+  background: #91BA4A;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 1.1em;
+  border-radius: 30px;
+  text-align: center;
+  display: block;
+  width: 220px;
+  transition: 0.4s;
+}
+
+.tendencia a:hover {
+  background: #5E7053;
+}
+
+/************ duvidas **********/
+
+.duvidas {
+  margin: 80px 0 0px;
+  padding: 80px 80px;
+  background-color: #F9F9F9;
+}
+
+.duvidas .bloco {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 550px;
+  background: #91BA4A;
+  border-radius: 20px;
+}
+
+.duvidas .bloco h3 {
+  font-size: 1.5em;
+  font-weight: 600;
+  text-align: center;
+  color: white;
+  width: 50%;
+  margin: 0 auto;
+  display: block;
+}
+
+.duvidas .text {
+  padding: 0 50px;
+}
+
+.duvidas .text h6 {
+  font-size: 1.1em;
+  font-weight: 200;
+  text-align: start;
+  color: #5E7053;
+  flex: 1;
+}
+
+.duvidas .text h3  {
+  font-size: 2.5em;
+  font-weight: 600;
+  text-align: start;
+  color: #5E7053;
+  line-height: 1.1;
+}
+
+.duvidas .text p {
+  font-size: 18px;
+  margin: 10px 0 10px;
+  color: rgb(70, 70, 70);
+  text-align: start;
+}
+
+.duvidas button.w-full.text-left.text-xl.font-semibold.focus\:outline-none {
+  font-size: 17px;
+  font-weight: 500;
+  color: #535353;
+}
+
+@media(max-width: 480px) {
+
+  .home-banner > div {
+    padding: 40px 10px;
+  }
+
+  .home-text h1 {
+    font-size: 3rem;
+    margin: 0;
+  }
+
+  .vantagens > div,
+  .servicos > div,
+  .processo,
+  .nossa-ferramenta,
+  .home-banner,
+  .home-text {
+    padding: 20px 10px;
+  }
+  .home-text h1 {
+    line-height: 1;
+  }
+  .home-banner img {
+    display: none;
+  }
+  .home-banner p {
+    font-size: 21px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .home-banner h2 {
+    margin-bottom: 10px;
+  }
+  .nossa-ferramenta h2 {
+    font-size: 2.5em;
+    width: 100%;
+  }
+  .nossa-ferramenta .nossa-ferramentas_card {
+    flex: 0 1 calc(100% - 20px);
+  }
+  .banner {
+    height: 33em;
+  }
+  .processo {
+    margin: 80px 0 50px;
+  }
+  .processo .col-span-5 img {
+    display: none;
+  }
+  .servicos h2 {
+    font-size: 2.5em;
+  }
+  .servicos {
+    margin: 80px 0 50px;
+  }
+  .vantagens li {
+    font-size: 17px;
+    padding: 0px 15px;
+  }
+  .tendencia h2 {
+    width: 100%;
+  }
+  .duvidas {
+    padding: 80px 10px;
+  }
+  .duvidas .bloco {
+      height: 150px;
+  }
+  .duvidas .text {
+      padding: 0 6px;
+  }
 }

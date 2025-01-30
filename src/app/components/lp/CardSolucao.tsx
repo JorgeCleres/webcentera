@@ -1,6 +1,14 @@
 import Image from 'next/image';
 
-const CardIcon = ({ iconSrc, title, desc, desc1, desc2 }) => {
+interface CardIconProps {
+    iconSrc: string;
+    title: string;
+    desc: string;
+    desc1: string;
+    desc2: string;
+}
+
+const CardIcon: React.FC<CardIconProps> = ({ iconSrc, title, desc, desc1, desc2 }) => {
     return (
         <div className="col-span-3 cardSolucao">
             <div className="image">

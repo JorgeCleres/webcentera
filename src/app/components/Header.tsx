@@ -10,7 +10,6 @@ const menus: MenuItem[] = [
   { label: "Contato", link: "/contato" },
   { label: "Transportadora", link: "/transportadora" },
   { label: "Especificações", link: "/especificacoes" },
-  { label: "lp", link: "/lp" },
   { label: "Rotas", link: "/rotas" },
 ];
 
@@ -22,16 +21,19 @@ export default function Header() {
 
   return (
     <header className="flex justify-between items-center px-8 py-6 bg-white shadow-md w-full relative">
+      <a href={menus[0].link}>
       <Image src={logo} alt="Logo" width={280} height={60} priority />
+      </a>
+
       <ul className="hidden md:flex gap-10">
         {menus.map((menu) => (
           <li key={menu.label} className="relative">
             <a
               href={menu.link}
               className={`text-black font-normal text-base relative pb-1 ${pathname === menu.link
-                  ? "border-b-2 border-black font-medium"
-                  : "hover:border-b-2 hover:border-black"
-                }`}
+                ? "border-b-2 border-black font-medium"
+                : "hover:border-b-2 hover:border-black"
+              }`}
             >
               {menu.label}
             </a>
@@ -40,8 +42,8 @@ export default function Header() {
       </ul>
       <div className="hidden md:block">
         <a
-          href="/fale-conosco"
-          className="bg-black text-white px-11 py-4 rounded-md hover:opacity-80 font-normal"
+          href="https://wa.me/5511983184338?text=Gostaria%20de%20agendar%20uma%20demonstra%C3%A7%C3%A3o"
+          className="bg-black text-white px-11 py-4 rounded-md hover:opacity-80 font-normal speak"
         >
           Fale Conosco
         </a>

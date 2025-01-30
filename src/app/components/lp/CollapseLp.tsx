@@ -1,9 +1,9 @@
 import { useState } from 'react';
 
 const FAQ = () => {
-    const [openFAQ, setOpenFAQ] = useState(null);
+    const [openFAQ, setOpenFAQ] = useState<number | null>(null);
 
-    const toggleCollapse = (index) => {
+    const toggleCollapse = (index: number) => {
         setOpenFAQ(openFAQ === index ? null : index);
     };
 

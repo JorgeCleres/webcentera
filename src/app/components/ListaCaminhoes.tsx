@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import Image from "next/image";
 import CardCaminhao from "./CardCaminhao";
 import { caminhoneData } from "../content/caminhoneData";
 import { Filters, ListaCaminhoesProps } from "../types/components/listaCaminhoes";
@@ -108,10 +109,12 @@ export default function ListaCaminhoes({ filters }: ListaCaminhoesProps) {
                 <div key={index} className="card-caminhao-container">
                   <div className="flex flex-col md:flex-row gap-2 mt-4">
                     <div className="flex flex-col items-start w-full gap-4">
-                      <img
+                      <Image
                         src={eixo.img}
                         alt={`Imagem de eixo tipo ${eixo.tipo} do código ${caminhao.codigo}`}
                         className="w-full object-contain mb-2 max-w-[35rem] max-h-[10rem] flex-1"
+                        width={450}
+                        height={450}
                       />
                       <div className="flex flex-col md:flex-row w-full gap-1 items-start">
                         <p className="micro-cards">

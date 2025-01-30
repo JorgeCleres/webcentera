@@ -1,0 +1,100 @@
+/********* banner-transportadora ***********/
+
+.banner-transportadora {
+    background: linear-gradient(270deg, #555555c0, #858585b5), url('/transpostadora.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+
+.banner-transportadora h2 {
+    font-size: 3.5em;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+    line-height: 1.1;
+}
+
+/******* transportadora-default ********/
+
+.transportadora-default {
+    margin: 80px 0 90px;
+    padding: 20px 80px;
+}
+
+.transportadora-default img {
+    margin: 0px auto -40px;
+    display: block;
+}
+
+.transportadora-default h6 {
+    font-weight: 500;
+}
+
+/******* transportadora ***************/
+
+.transportadora {
+    margin: 80px 0 150px;
+    padding: 20px 80px;
+}
+
+.transportadora h3 {
+    margin-bottom: 5px;
+    font-size: 3.5em;
+    font-weight: 600;
+    text-align: start;
+    color: #5E7053;
+    line-height: 1.1;
+}
+
+.transportadora h4 {
+    font-size: 1.4em;
+    font-weight: 500;
+    text-align: start;
+    color: #91BA4A;
+}
+
+.transportadora p {
+    font-size: 18px;
+    margin: 10px 0 10px;
+    color: rgb(70, 70, 70)
+}
+
+.transportadora img {
+    margin: 0px auto -40px;
+    display: block;
+}
+
+@media(max-width: 480px) {
+    .transportadora {
+        padding: 20px 10px;
+    }
+    .transportadora {
+        margin: 80px 0 50px;
+    }
+    .transportadora .col-span-5 img {
+        display: none;
+    }
+    .transportadora h3 {
+        font-size: 2.5em;
+    }
+    .banner-transportadora h2 {
+        font-size: 2.5em;
+    }
+    .transportadora-default {
+        margin: 80px 0 50px;
+        padding: 20px 10px;
+    }
+    .transportadora-default img {
+        margin: 0px auto 40px;
+        display: block;
+        width: 1800px;
+    }
+}

@@ -14,3 +14,7 @@ body {
   background: var(--background);
   font-family: Outfit, sans-serif;
 }
+
+.speak {
+  background: #485C3B !important;
+}
