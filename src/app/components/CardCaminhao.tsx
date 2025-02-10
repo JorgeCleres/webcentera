@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
 import { CardCaminhaoProps } from "../types/components/cardCaminhao";
-
 import "../css/cardCaminhao/cardCaminhao.css";
 
 export default function CardCaminhao({ caminhao, mostrarCaminhao }: CardCaminhaoProps) {
