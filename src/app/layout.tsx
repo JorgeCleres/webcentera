@@ -33,7 +33,7 @@ export default function RootLayout({
     <html lang="pt-BR">
       <head>
         <Script
-          src={`https://maps.googleapis.com/maps/api/js?key=AIzaSyBaXfQqauCl75h3YVNBw6OcTSx5SnWwM&libraries=places`}
+          src={`https://maps.googleapis.com/maps/api/js?key=AIzaSyBaXfQqauCl75h3YVNBw6OcTSx5SnWwM-8&libraries=places`}
           strategy="beforeInteractive"
         />
         <link rel="icon" href="./favicon.ico" />

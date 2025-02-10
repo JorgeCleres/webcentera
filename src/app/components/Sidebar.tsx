@@ -79,7 +79,7 @@ export default function Sidebar({ onDirectionsComputed }: SidebarProps) {
   ): Promise<{ tollCount: number; tollCost: number }> {
     try {
       // const apiKey = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY;
-      const apiKey = 'AIzaSyBaXfQqauCl75h3YVNBw6OcTSx5SnWwM';
+      const apiKey = 'AIzaSyBaXfQqauCl75h3YVNBw6OcTSx5SnWwM-8';
       const requestData = {
         origins: [
           {
