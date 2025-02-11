@@ -28,7 +28,7 @@ export default function lp() {
             <header className="hero h-screen bg-gray-100">
                 <div className="container mx-auto h-full">
                     <h1 className="text-4xl font-bold mb-4">
-                        Transforme Sua Logística com Eficiência e Economia
+                        Transforme Sua Logística com Eficiência e Econômia
                     </h1>
                     <p className="text-lg text-gray-600 mb-6">
                         Automação, rastreabilidade e gestão inteligente para reduzir custos e simplificar o transporte de cargas..
