@@ -18,3 +18,11 @@ body {
 .speak {
   background: #485C3B !important;
 }
+
+p, li, a {
+  font-family: sans-serif !important;
+}
+
+a.text-black.font-normal.text-base.relative.pb-1.hover\:border-b-2.hover\:border-black {
+  font-size: 17px;
+}
