@@ -36,6 +36,20 @@ export default function RootLayout({
           src={`https://maps.googleapis.com/maps/api/js?key=AIzaSyBaXfQqauCl75h3YVNBw6OcTSx5SnWwM-8&libraries=places`}
           strategy="beforeInteractive"
         />
+
+      <script dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){window.dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-16835652560');
+          `
+        }} />
+        <script dangerouslySetInnerHTML={{
+          __html: "gtag('event', 'conversion', {'send_to': 'AW-16835652560/fz88COmHt5kaENDX7ts-'});"
+        }} />
+
+
         <link rel="icon" href="./favicon.ico" />
       </head>
       <body className={`${outfit.className} ${poppins.className} ${ubuntu.className}`}>
