@@ -37,18 +37,14 @@ export default function RootLayout({
           strategy="beforeInteractive"
         />
 
-      <script dangerouslySetInnerHTML={{
-          __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){window.dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'AW-16835652560');
-          `
-        }} />
-        <script dangerouslySetInnerHTML={{
-          __html: "gtag('event', 'conversion', {'send_to': 'AW-16835652560/fz88COmHt5kaENDX7ts-'});"
-        }} />
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=AW-16835652560" strategy="afterInteractive" />
 
+        <Script id="google-ads-tag" strategy="afterInteractive">
+          {`window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'AW-16835652560');`}
+        </Script>
 
         <link rel="icon" href="./favicon.ico" />
       </head>
