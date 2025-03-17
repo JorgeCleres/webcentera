@@ -10,8 +10,7 @@ export const caminhoneData = [
     comprimentoMaximo: "14,00m",
     caminhaoImg: "/truck/2-eixos.png",
     eixoImg: [
-      { tipo: "simples", img: "/axis/um/simples.png" },
-      { tipo: "trucado", img: "/axis/um/duplo.png" }
+      { tipo: "simples", img: "/axis/c1.png" },
     ]
   },
   {
@@ -25,10 +24,7 @@ export const caminhoneData = [
     comprimentoMaximo: "14,00m",
     caminhaoImg: "/truck/3-eixos.png",
     eixoImg: [
-     { tipo: "simples", img: "/axis/duplo/simples.png" },
-     { tipo: "trucado", img: "/axis/duplo/duplo.png" },
-     { tipo: "trucado2", img: "/axis/duplo/duplo-2.png" },
-     { tipo: "trucado3", img: "/axis/duplo/duplo-3.png" }
+      { tipo: "simples", img: "/axis/c2.png" },
     ]
   },
   {
@@ -42,10 +38,7 @@ export const caminhoneData = [
     comprimentoMaximo: "18,60m",
     caminhaoImg: "/truck/4-eixos.png",
     eixoImg: [
-      { tipo: "simples", img: "/axis/um/simples.png" },
-         { tipo: "trucado", img: "/axis/duplo/duplo.png" },
-     { tipo: "trucado2", img: "/axis/duplo/duplo-2.png" },
-     { tipo: "trucado3", img: "/axis/duplo/duplo-3.png" }
+      { tipo: "simples", img: "/axis/c3.png" },
     ]
   },
   {
@@ -58,7 +51,9 @@ export const caminhoneData = [
     comprimentoMinimo: "16m",
     comprimentoMaximo: "19,80m",
     caminhaoImg: "/truck/4-eixos-2.png",
-    eixoImg: []
+    eixoImg: [
+      { tipo: "simples", img: "/axis/c3-1.png" },
+    ]
   },
   {
     codigo: "C4",
@@ -71,13 +66,7 @@ export const caminhoneData = [
     comprimentoMaximo: "18,60m",
     caminhaoImg: "/truck/5-eixos.png",
     eixoImg: [
-         { tipo: "trucado", img: "/axis/duplo/duplo.png" },
-     { tipo: "trucado2", img: "/axis/duplo/duplo-2.png" },
-     { tipo: "trucado3", img: "/axis/duplo/duplo-3.png" },
-     { tipo: "trucado4", img: "/axis/tripo/simples.png" },
-      { tipo: "trucado5", img: "/axis/tripo/duplo.png" },
-      { tipo: "trucado6", img: "/axis/tripo/duplo-2.png" },
-      { tipo: "trucado7", img: "/axis/tripo/duplo-3.png" }
+      { tipo: "trucado", img: "/axis/c4.png" },
     ]
   },
   {
@@ -90,7 +79,9 @@ export const caminhoneData = [
     comprimentoMinimo: "Vide nota",
     comprimentoMaximo: "18,60m",
     caminhaoImg: "/truck/5-eixos-2.png",
-    eixoImg: []
+    eixoImg: [
+      { tipo: "trucado", img: "/axis/c4-1.png" },
+    ]
   },
   {
     codigo: "C4.2",
@@ -102,7 +93,9 @@ export const caminhoneData = [
     comprimentoMinimo: "16m",
     comprimentoMaximo: "18,6m",
     caminhaoImg: "/truck/5-eixos-5.png",
-    eixoImg: []
+    eixoImg: [
+      { tipo: "trucado", img: "/axis/c4-2.png" },
+    ]
   },
   {
     codigo: "C4.3",
@@ -114,7 +107,9 @@ export const caminhoneData = [
     comprimentoMinimo: "16m",
     comprimentoMaximo: "19,60m",
     caminhaoImg: "/truck/5-eixos-3.png",
-    eixoImg: []
+    eixoImg: [
+      { tipo: "trucado", img: "/axis/c4-3.png" },
+    ]
   },
   {
     codigo: "C4.4",
@@ -126,7 +121,9 @@ export const caminhoneData = [
     comprimentoMinimo: "16m",
     comprimentoMaximo: "19,60m",
     caminhaoImg: "/truck/5-eixos-4.png",
-    eixoImg: []
+    eixoImg: [
+      { tipo: "trucado", img: "/axis/c4-4.png" },
+    ]
   },
   {
     codigo: "C5",
@@ -139,13 +136,7 @@ export const caminhoneData = [
     comprimentoMaximo: "19,80m",
     caminhaoImg: "/truck/6-eixos-2.png",
     eixoImg: [
-          { tipo: "trucado", img: "/axis/duplo/duplo.png" },
-     { tipo: "trucado2", img: "/axis/duplo/duplo-2.png" },
-     { tipo: "trucado3", img: "/axis/duplo/duplo-3.png" },
-     { tipo: "trucado4", img: "/axis/tripo/simples.png" },
-      { tipo: "trucado5", img: "/axis/tripo/duplo.png" },
-      { tipo: "trucado6", img: "/axis/tripo/duplo-2.png" },
-      { tipo: "trucado7", img: "/axis/tripo/duplo-3.png" }
+      { tipo: "trucado", img: "/axis/c5.png" },
     ]
   },
   {
@@ -158,7 +149,9 @@ export const caminhoneData = [
     comprimentoMinimo: "16,00m",
     comprimentoMaximo: "18,60m",
     caminhaoImg: "/truck/6-eixos-4.png",
-    eixoImg: []
+    eixoImg: [
+      { tipo: "trucado", img: "/axis/c5-1.png" },
+    ]
   },
   {
     codigo: "C5.2",
@@ -170,7 +163,9 @@ export const caminhoneData = [
     comprimentoMinimo: "16,00m",
     comprimentoMaximo: "18,60m",
     caminhaoImg: "/truck/6-eixos.png",
-    eixoImg: []
+    eixoImg: [
+      { tipo: "trucado", img: "/axis/c5-2.png" },
+    ]
   },
   {
     codigo: "C5.3",
@@ -182,7 +177,9 @@ export const caminhoneData = [
     comprimentoMinimo: "16,00m",
     comprimentoMaximo: "18,60m",
     caminhaoImg: "/truck/6-eixos-3.png",
-    eixoImg: []
+    eixoImg: [
+      { tipo: "trucado", img: "/axis/c5-3.png" },
+    ]
   },
   {
     codigo: "C6",
@@ -195,10 +192,7 @@ export const caminhoneData = [
     comprimentoMaximo: "30,00m",
     caminhaoImg: "/truck/7-eixos.png",
     eixoImg: [
-          { tipo: "trucado", img: "/axis/duplo/duplo.png" },
-     { tipo: "trucado2", img: "/axis/duplo/duplo-2.png" },
-     { tipo: "trucado3", img: "/axis/duplo/duplo-3.png" },
-  
+      { tipo: "trucado", img: "/axis/c6.png" },
     ]
   },
   {
@@ -212,7 +206,7 @@ export const caminhoneData = [
     comprimentoMaximo: "19,80m",
     caminhaoImg: "/truck/7-eixos-2.png",
     eixoImg: [
-      
+      { tipo: "trucado", img: "/axis/c6-1.png" },
     ]
   },
   {
@@ -226,15 +220,7 @@ export const caminhoneData = [
     comprimentoMaximo: "30,00m",
     caminhaoImg: "/truck/8-eixos.png",
     eixoImg: [
-       { tipo: "simples-trucado", img: "/axis/um/duplo.png" },
-
-       { tipo: "trucado", img: "/axis/duplo/duplo.png" },
-     { tipo: "trucado2", img: "/axis/duplo/duplo-2.png" },
-     { tipo: "trucado3", img: "/axis/duplo/duplo-3.png" },
-     { tipo: "trucado4", img: "/axis/tripo/simples.png" },
-      { tipo: "trucado5", img: "/axis/tripo/duplo.png" },
-      { tipo: "trucado6", img: "/axis/tripo/duplo-2.png" },
-      { tipo: "trucado7", img: "/axis/tripo/duplo-3.png" }
+      { tipo: "simples-trucado", img: "/axis/c7.png" },
     ]
   },
   {
@@ -248,15 +234,7 @@ export const caminhoneData = [
     comprimentoMaximo: "30,00m",
     caminhaoImg: "/truck/9-eixos.png",
     eixoImg: [
-     { tipo: "simples-trucado", img: "/axis/um/duplo.png" },
-
-       { tipo: "trucado", img: "/axis/duplo/duplo.png" },
-     { tipo: "trucado2", img: "/axis/duplo/duplo-2.png" },
-     { tipo: "trucado3", img: "/axis/duplo/duplo-3.png" },
-     { tipo: "trucado4", img: "/axis/tripo/simples.png" },
-      { tipo: "trucado5", img: "/axis/tripo/duplo.png" },
-      { tipo: "trucado6", img: "/axis/tripo/duplo-2.png" },
-      { tipo: "trucado7", img: "/axis/tripo/duplo-3.png" }
+      { tipo: "simples-trucado", img: "/axis/c8.png" },
     ]
   },
   {
@@ -270,7 +248,7 @@ export const caminhoneData = [
     comprimentoMaximo: "30,00m",
     caminhaoImg: "/truck/9-eixos-4.png",
     eixoImg: [
-     
+      { tipo: "simples-trucado", img: "/axis/c8-1.png" },
     ]
   },
   {
@@ -284,7 +262,7 @@ export const caminhoneData = [
     comprimentoMaximo: "30,00m",
     caminhaoImg: "/truck/9-eixos-5.png",
     eixoImg: [
-     
+      { tipo: "simples-trucado", img: "/axis/c8-2.png" },
     ]
   }
 ];
