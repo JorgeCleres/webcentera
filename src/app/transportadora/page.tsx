@@ -6,7 +6,6 @@ import Footer from '../components/Footer';
 import Duvidas from '../components/Duvidas';
 
 export default function TransportadoraPage() {
-
     const img_transportadora = "/img-transportadora.png";
 
     return (
@@ -17,7 +16,6 @@ export default function TransportadoraPage() {
 
             <div className="transportadora">
                 <div className="grid grid-cols-12 gap-4 items-center">
-
                     <div className="col-span-12 md:col-span-6 flex flex-col justify-center">
                         <h3>DISPOSIÇÕES GERAIS PARA SEU EMBARQUE</h3>
                         <p>Fique atento a todas as informações</p>

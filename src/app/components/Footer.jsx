@@ -119,7 +119,7 @@ export default function Footer() {
 
                 <hr />
 
-                <p id="copy">Copyright 2024 © Todos os direitos reservados por Centera Soluções Logísticas</p>
+                <p id="copy">Copyright 2025 © Todos os direitos reservados por Centera Soluções Logísticas</p>
             </footer>
         </>
     );
