@@ -5,7 +5,7 @@ import '../../css/home/transportadora.css';
 import Footer from '../../components/Footer';
 import Duvidas from '../../components/Duvidas';
 import { useParams } from 'next/navigation';
-import { useEffect, useState } from 'react';
+import { useEffect, useState, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 
 type TransportadoraInfo = {
@@ -46,7 +46,8 @@ const informacaoPadrao: TransportadoraInfo = {
   },
 };
 
-export default function TransportadoraDinamicaPage() {
+// Componente que usa useSearchParams
+function TransportadoraContent() {
   const searchParams = useSearchParams();
   const params = useParams();
   const slug = searchParams.get('slug') || params.slug || '';
@@ -105,5 +106,13 @@ export default function TransportadoraDinamicaPage() {
       <Footer />
     </>
   );
+}
 
+// Componente principal com Suspense
+export default function TransportadoraDinamicaPage() {
+  return (
+    <Suspense fallback={<div>Carregando...</div>}>
+      <TransportadoraContent />
+    </Suspense>
+  );
 }
